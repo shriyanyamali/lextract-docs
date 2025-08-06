@@ -12,7 +12,7 @@ function ArrowIcon() {
         fill="currentColor"
       />
     </svg>
-  )
+  );
 }
 
 export default function Footer() {
@@ -23,11 +23,10 @@ export default function Footer() {
           <a
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
             rel="noopener noreferrer"
-            target="_blank"
-            href="/rss"
+            href="/sitemap.xml"
           >
             <ArrowIcon />
-            <p className="ml-2 h-7">rss</p>
+            <p className="ml-2 h-7">xml</p>
           </a>
         </li>
         <li>
@@ -35,7 +34,7 @@ export default function Footer() {
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://github.com/vercel/next.js"
+            href="https://github.com/shriyanyamali/Lextract"
           >
             <ArrowIcon />
             <p className="ml-2 h-7">github</p>
@@ -46,16 +45,33 @@ export default function Footer() {
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://vercel.com/templates/next.js/portfolio-starter-kit"
+            href="https://github.com/shriyanyamali/Lextract/blob/main/paper.pdf"
           >
             <ArrowIcon />
-            <p className="ml-2 h-7">view source</p>
+            <p className="ml-2 h-7">view paper</p>
+          </a>
+        </li>
+        <li>
+          <a
+            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://github.com/shriyanyamali/lextract-docs"
+          >
+            <ArrowIcon />
+            <p className="ml-2 h-7">source code</p>
           </a>
         </li>
       </ul>
       <p className="mt-8 text-neutral-600 dark:text-neutral-300">
-        © {new Date().getFullYear()} MIT Licensed
+        © {new Date().getFullYear()} Shriyan Yamali. {" "}
+        <a
+          href="/license"
+          className="underline"
+        >
+          AGPL-3.0 Licensed
+        </a>
       </p>
     </footer>
-  )
+  );
 }
