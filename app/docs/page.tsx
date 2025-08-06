@@ -9,9 +9,9 @@ export default function Page() {
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">Docs</h1>
 
       <p className="mb-6 text-lg border-l-2 pl-3 border-amber-500">
-        Note: At no point throughout the installation, setup, or usage of this code
-        should you change the location or name of any files as scripts rely on
-        the original names.
+        Note: At no point throughout the installation, setup, or usage of this
+        code should you change the location or name of any files as scripts rely
+        on the original names.
       </p>
 
       <h2 className="underline decoration-1 decoration-amber-500 text-lg font-semibold mt-10 mb-4">
@@ -24,7 +24,7 @@ export default function Page() {
             <a
               href="https://git-scm.com/downloads"
               target="_blank"
-              className="text-amber-300 hover:text-amber-200"
+              className="text-amber-700 hover:text-amber-600 dark:text-amber-300 dark:hover:text-amber-200"
             >
               Git
             </a>
@@ -33,7 +33,7 @@ export default function Page() {
             <a
               href="https://www.python.org/downloads/"
               target="_blank"
-              className="text-amber-300 hover:text-amber-200"
+              className="text-amber-700 hover:text-amber-600 dark:text-amber-300 dark:hover:text-amber-200"
             >
               Python
             </a>
@@ -42,7 +42,7 @@ export default function Page() {
             <a
               href="https://ai.google.dev/"
               target="_blank"
-              className="text-amber-300 hover:text-amber-200"
+              className="text-amber-700 hover:text-amber-600 dark:text-amber-300 dark:hover:text-amber-200"
             >
               Gemini Key
             </a>
@@ -59,7 +59,7 @@ export default function Page() {
           <a
             href="https://ai.google.dev/"
             target="_blank"
-            className="text-amber-300 hover:text-amber-200"
+            className="text-amber-700 hover:text-amber-600 dark:text-amber-300 dark:hover:text-amber-200"
           >
             here
           </a>
@@ -78,16 +78,16 @@ export default function Page() {
         installation
       </h2>
       <p className="mb-6 text-lg">
-        <div className="block mt-2 bg-[#181818] p-4">
-          <p className="text-emerald-400"># Clone the repo</p>
+        <div className="block mt-2 bg-[#F2F0EF] dark:bg-[#181818] p-4">
+          <p className="text-emerald-600 dark:text-emerald-400"># Clone the repo</p>
           <p className="mb-4">
             git clone https://github.com/shriyanyamali/Lextract.git
           </p>
-          <p className="text-emerald-400">
+          <p className="text-emerald-600 dark:text-emerald-400">
             # Change into the project directory
           </p>
           <p className="mb-4">cd Lextract</p>
-          <p className="text-emerald-400">
+          <p className="text-emerald-600 dark:text-emerald-400">
             # Install the required packages pip
           </p>
           install -r requirements.txt
@@ -101,18 +101,18 @@ export default function Page() {
       <p className="mb-6 text-lg">
         <p className="mb-1">1. Remove .gitkeep files:</p>
 
-        <div className="block bg-[#181818] p-4">
-          <p className="text-emerald-400"># macOS / Linux</p>
+        <div className="block bg-[#F2F0EF] dark:bg-[#181818] p-4">
+          <p className="text-emerald-600 dark:text-emerald-400"># macOS / Linux</p>
           <p className="mb-4">
             rm json/.gitkeep data/extracted_batches/.gitkeep
             data/extracted_sections/.gitkeep
           </p>
-          <p className="text-emerald-400"># PowerShell</p>
+          <p className="text-emerald-600 dark:text-emerald-400"># PowerShell</p>
           <p className="mb-4">
             Remove-Item json/.gitkeep, data/extracted_batches/.gitkeep,
             data/extracted_sections/.gitkeep -Force
           </p>
-          <p className="text-emerald-400"># Command Prompt</p>
+          <p className="text-emerald-600 dark:text-emerald-400"># Command Prompt</p>
           del json\.gitkeep data\extracted_batches\.gitkeep
           data\extracted_sections\.gitkeep
         </div>
@@ -122,7 +122,7 @@ export default function Page() {
           <a
             href="https://competition-cases.ec.europa.eu/search"
             target="_blank"
-            className="text-amber-300 hover:text-amber-200"
+            className="text-amber-700 hover:text-amber-600 dark:text-amber-300 dark:hover:text-amber-200"
           >
             competition-cases.ec.europa.eu/search
           </a>{" "}
@@ -143,18 +143,18 @@ export default function Page() {
           5. Set the GEMINI_API_KEY Environment Variable:
         </p>
 
-        <div className="block m bg-[#181818] p-4">
-          <p className="text-emerald-400"># macOS / Linux</p>
+        <div className="block m bg-[#F2F0EF] dark:bg-[#181818] p-4">
+          <p className="text-emerald-600 dark:text-emerald-400"># macOS / Linux</p>
           <p className="mb-4">export GEMINI_API_KEY="your-api-key-here"</p>
-          <p className="text-emerald-400"># PowerShell</p>
+          <p className="text-emerald-600 dark:text-emerald-400"># PowerShell</p>
           <p className="mb-4">$env:GEMINI_API_KEY="your-api-key-here"</p>
-          <p className="text-emerald-400"># Command Prompt</p>
+          <p className="text-emerald-600 dark:text-emerald-400"># Command Prompt</p>
           set GEMINI_API_KEY=your-api-key-here
         </div>
 
         <p className="mt-6">
           6. Run the pipeline:{" "}
-          <span className="bg-[#181818] px-2 py-1">python run_pipeline.py</span>
+          <span className="bg-[#F2F0EF] dark:bg-[#181818] px-2 py-1">python run_pipeline.py</span>
         </p>
       </p>
 
@@ -164,29 +164,29 @@ export default function Page() {
       <p className="mb-6 text-lg">
         <p>
           Run all tests:{" "}
-          <span className="bg-[#181818] px-2 py-1">pytest -q</span>
+          <span className="bg-[#F2F0EF] dark:bg-[#181818] px-2 py-1">pytest -q</span>
         </p>
 
         <p className="mt-6">
           Run all tests with coverage report:{" "}
-          <span className="bg-[#181818] px-2 py-1">
+          <span className="bg-[#F2F0EF] dark:bg-[#181818] px-2 py-1">
             pytest --cov=scripts --cov=tests
           </span>
         </p>
 
-        <div className="block mt-6 bg-[#181818] p-4">
-          make test <span className="text-emerald-400"># Run all tests</span>{" "}
+        <div className="block mt-6 bg-[#F2F0EF] dark:bg-[#181818] p-4">
+          make test <span className="text-emerald-600 dark:text-emerald-400"># Run all tests</span>{" "}
           <br />
           make coverage{" "}
-          <span className="text-emerald-400">
+          <span className="text-emerald-600 dark:text-emerald-400">
             # Run tests with coverage report
           </span>{" "}
           <br />
           make format{" "}
-          <span className="text-emerald-400"># Auto-format code</span> <br />
-          make lint <span className="text-emerald-400"># Lint code</span> <br />
+          <span className="text-emerald-600 dark:text-emerald-400"># Auto-format code</span> <br />
+          make lint <span className="text-emerald-600 dark:text-emerald-400"># Lint code</span> <br />
           make clean{" "}
-          <span className="text-emerald-400">
+          <span className="text-emerald-600 dark:text-emerald-400">
             # Remove __pycache__ and test artifacts
           </span>{" "}
           <br />
@@ -197,7 +197,7 @@ export default function Page() {
         For more, see the{" "}
         <a
           href="https://github.com/shriyanyamali/Lextract?tab=readme-ov-file#installation"
-          className="text-amber-300 hover:text-amber-200"
+          className="text-amber-700 hover:text-amber-600 dark:text-amber-300 dark:hover:text-amber-200"
           target="_blank"
         >
           GitHub README

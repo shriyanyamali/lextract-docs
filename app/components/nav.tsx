@@ -27,7 +27,6 @@ export function Navbar() {
         >
           <div className="flex flex-row space-x-0 pr-10">
             {Object.entries(navItems).map(([path, { name }]) => {
-              // Match exactly for home, or prefix for subpaths
               const isActive =
                 path === '/'
                   ? pathname === '/'
@@ -39,7 +38,7 @@ export function Navbar() {
                   href={path}
                   className={`transition-all flex align-middle relative py-1 px-2 m-1
                     ${isActive 
-                      ? 'text-amber-500' 
+                      ? 'text-amber-700 dark:text-amber-500' 
                       : ''}`}
                 >
                   {name}

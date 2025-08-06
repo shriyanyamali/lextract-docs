@@ -12,7 +12,7 @@ const baseUrl = 'https://lextract.shriyanyamali.tech'
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: 'Lextract - Home',
+    default: 'Lextract',
     template: 'Lextract - %s',
   },
   description: 'Lextract repository website and documentation.',

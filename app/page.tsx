@@ -24,7 +24,7 @@ export default function Page() {
         <a
           href="https://competition-cases.ec.europa.eu/search"
           target="_blank"
-          className="text-amber-300 hover:text-amber-200"
+          className="text-amber-700 hover:text-amber-600 dark:text-amber-300 dark:hover:text-amber-200"
         >
           European Commission’s case search portal
         </a>
@@ -69,7 +69,10 @@ export default function Page() {
       <p className="mb-6 text-lg">
         Lextract is easy to run on your machine. All you need is Git, Python, a
         Gemini API key, and a list of cases. Follow the{" "}
-        <a href="/docs" className="text-amber-300 hover:text-amber-200">
+        <a
+          href="/docs"
+          className="text-amber-700 hover:text-amber-600 dark:text-amber-300 dark:hover:text-amber-200"
+        >
           documentation
         </a>{" "}
         to get started.
@@ -80,28 +83,28 @@ export default function Page() {
           example output
         </h2>
         <div>
-          <pre className="mb-6 text-lg whitespace-pre-wrap font-mono rounded text-white">
+          <pre className="mb-6 text-lg whitespace-pre-wrap font-mono rounded text-black dark:text-white">
             <code>
               <span>{`[`}</span>
               {"\n  "}
               <span>{`{`}</span>
               {"\n    "}
-              <span className="text-green-400">"case_number"</span>:{" "}
-              <span className="text-blue-400">"M.1234"</span>,{"\n    "}
-              <span className="text-green-400">"year"</span>:{" "}
-              <span className="text-blue-400">"2019"</span>,{"\n    "}
-              <span className="text-green-400">"policy_area"</span>:{" "}
-              <span className="text-blue-400">"Merger"</span>,{"\n    "}
-              <span className="text-green-400">"link"</span>:{" "}
-              <span className="text-blue-400">
+              <span className="text-emerald-500 dark:text-green-400">"case_number"</span>:{" "}
+              <span className="text-blue-600 dark:text-blue-400">"M.1234"</span>,{"\n    "}
+              <span className="text-emerald-500 dark:text-green-400">"year"</span>:{" "}
+              <span className="text-blue-600 dark:text-blue-400">"2019"</span>,{"\n    "}
+              <span className="text-emerald-500 dark:text-green-400">"policy_area"</span>:{" "}
+              <span className="text-blue-600 dark:text-blue-400">"Merger"</span>,{"\n    "}
+              <span className="text-emerald-500 dark:text-green-400">"link"</span>:{" "}
+              <span className="text-blue-600 dark:text-blue-400">
                 "https://ec.europa.eu/decision/path.pdf"
               </span>
               ,{"\n    "}
-              <span className="text-green-400">"topic"</span>:{" "}
-              <span className="text-blue-400">"Scope of phone markets"</span>,
+              <span className="text-emerald-500 dark:text-green-400">"topic"</span>:{" "}
+              <span className="text-blue-600 dark:text-blue-400">"Scope of phone markets"</span>,
               {"\n    "}
-              <span className="text-green-400">"text"</span>:{" "}
-              <span className="text-blue-400">
+              <span className="text-emerald-500 dark:text-green-400">"text"</span>:{" "}
+              <span className="text-blue-600 dark:text-blue-400">
                 "In the scope of the phone markets was..."
               </span>
               {"\n  "}
@@ -109,24 +112,24 @@ export default function Page() {
               {"\n  "}
               <span>{`{`}</span>
               {"\n    "}
-              <span className="text-green-400">"case_number"</span>:{" "}
-              <span className="text-blue-400">"M.2345"</span>,{"\n    "}
-              <span className="text-green-400">"year"</span>:{" "}
-              <span className="text-blue-400">"2023"</span>,{"\n    "}
-              <span className="text-green-400">"policy_area"</span>:{" "}
-              <span className="text-blue-400">"Merger"</span>,{"\n    "}
-              <span className="text-green-400">"link"</span>:{" "}
-              <span className="text-blue-400">
+              <span className="text-emerald-500 dark:text-green-400">"case_number"</span>:{" "}
+              <span className="text-blue-600 dark:text-blue-400">"M.2345"</span>,{"\n    "}
+              <span className="text-emerald-500 dark:text-green-400">"year"</span>:{" "}
+              <span className="text-blue-600 dark:text-blue-400">"2023"</span>,{"\n    "}
+              <span className="text-emerald-500 dark:text-green-400">"policy_area"</span>:{" "}
+              <span className="text-blue-600 dark:text-blue-400">"Merger"</span>,{"\n    "}
+              <span className="text-emerald-500 dark:text-green-400">"link"</span>:{" "}
+              <span className="text-blue-600 dark:text-blue-400">
                 "https://ec.europa.eu/decision/path.pdf"
               </span>
               ,{"\n    "}
-              <span className="text-green-400">"topic"</span>:{" "}
-              <span className="text-blue-400">
+              <span className="text-emerald-500 dark:text-green-400">"topic"</span>:{" "}
+              <span className="text-blue-600 dark:text-blue-400">
                 "Relevant product markets of..."
               </span>
               ,{"\n    "}
-              <span className="text-green-400">"text"</span>:{" "}
-              <span className="text-blue-400">
+              <span className="text-emerald-500 dark:text-green-400">"text"</span>:{" "}
+              <span className="text-blue-600 dark:text-blue-400">
                 "The relevant product markets are the..."
               </span>
               {"\n  "}
@@ -146,7 +149,7 @@ export default function Page() {
         <a
           href="https://jurismercatus.vercel.app/"
           target="_blank"
-          className="text-amber-300 hover:text-amber-200"
+          className="text-amber-700 hover:text-amber-600 dark:text-amber-300 dark:hover:text-amber-200"
         >
           JurisMercatus
         </a>
@@ -159,7 +162,10 @@ export default function Page() {
       <p className="mb-6 text-lg">
         Lextract and this website are licensed under the AGPL-3.0 License. View
         the{" "}
-        <a href="/license" className="text-amber-300 hover:text-amber-200">
+        <a
+          href="/license"
+          className="text-amber-700 hover:text-amber-600 dark:text-amber-300 dark:hover:text-amber-200"
+        >
           full license
         </a>
         .
@@ -170,7 +176,7 @@ export default function Page() {
       </h2>
       <p className="mb-6 text-lg">
         Please include the following citation:
-        <code className="block mt-2 bg-[#181818] p-4">
+        <code className="block mt-2 bg-neutral-200 dark:bg-[#181818] p-4">
           This project uses code from the Lextract repository Copyright (c) 2025
           Shriyan Yamali, licensed under the GNU Affero General Public License
           v3.0 (AGPL-3.0). https://github.com/shriyanyamali/Lextract

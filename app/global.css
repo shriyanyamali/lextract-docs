@@ -31,6 +31,14 @@
   }
 }
 
+@media (prefers-color-scheme: light) {
+  html {
+    color-scheme: light;
+    background-color: #FFFAFA;
+    @apply font-mono;
+  }
+}
+
 .prose .anchor {
   @apply absolute invisible no-underline;
 

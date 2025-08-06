@@ -19,7 +19,7 @@ export default function Page() {
               <a
                 href="http://fsf.org/"
                 target="_blank"
-                className="block text-amber-300 hover:text-amber-200"
+                className="block text-amber-700 hover:text-amber-600 dark:text-amber-300 dark:hover:text-amber-200"
               >
                 &lt;http://fsf.org/&gt;
               </a>
