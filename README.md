@@ -1,4 +1,4 @@
-![Build Status](https://img.shields.io/github/actions/workflow/status/shriyanyamali/shriyanyamali.github.io/ci.yml?branch=main)
+![Build Status](https://img.shields.io/github/actions/workflow/status/shriyanyamali/lextract-docs/ci.yml?branch=main)
 ![License](https://img.shields.io/badge/License-AGPL%203.0-green.svg)
 
 # Lextract Docs
