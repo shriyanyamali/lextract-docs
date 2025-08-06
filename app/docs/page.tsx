@@ -10,7 +10,7 @@ export default function Page() {
 
       <p className="mb-6 text-lg border-l-2 pl-3 border-amber-500">
         Note: At no point throughout the installation, setup, or usage of this
-        code should you change the location or name of any files as scripts rely
+        code should you change the location or name of any files as the scripts rely
         on the original names.
       </p>
 
@@ -135,7 +135,7 @@ export default function Page() {
         </p>
 
         <p className="mt-6">
-          4. pen the run_pipeline.py script. On line 33, follow the instructions
+          4. Open the run_pipeline.py script. On line 33, follow the instructions
           and set CHUNKS_SIZE equal to 79, 80, or both.
         </p>
 
