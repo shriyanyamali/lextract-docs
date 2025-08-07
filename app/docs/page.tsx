@@ -10,8 +10,8 @@ export default function Page() {
 
       <p className="mb-6 text-lg border-l-2 pl-3 border-amber-500">
         Note: At no point throughout the installation, setup, or usage of this
-        code should you change the location or name of any files as the scripts rely
-        on the original names.
+        code should you change the location or name of any files as the scripts
+        rely on the original names.
       </p>
 
       <h2 className="underline decoration-1 decoration-amber-500 text-lg font-semibold mt-10 mb-4">
@@ -69,8 +69,23 @@ export default function Page() {
 
         <p className="mb-4">
           Gemini 2.0 Flash should be suitable for analyzing 50-100 cases/day
-          depending on the length of the case decisions. See model options here
-          and rate limits here.
+          depending on the length of the case decisions. See model options {" "}
+          <a
+            href="https://ai.google.dev/gemini-api/docs/models"
+            target="_blank"
+            className="text-amber-700 hover:text-amber-600 dark:text-amber-300 dark:hover:text-amber-200"
+          >
+            here
+          </a>
+          {" "} and rate limits {" "}
+          <a
+            href="https://ai.google.dev/gemini-api/docs/rate-limits"
+            target="_blank"
+            className="text-amber-700 hover:text-amber-600 dark:text-amber-300 dark:hover:text-amber-200"
+          >
+            here
+          </a>
+          .
         </p>
       </div>
 
@@ -79,7 +94,9 @@ export default function Page() {
       </h2>
       <p className="mb-6 text-lg">
         <div className="block mt-2 bg-[#F2F0EF] dark:bg-[#181818] p-4">
-          <p className="text-emerald-600 dark:text-emerald-400"># Clone the repo</p>
+          <p className="text-emerald-600 dark:text-emerald-400">
+            # Clone the repo
+          </p>
           <p className="mb-4">
             git clone https://github.com/shriyanyamali/Lextract.git
           </p>
@@ -102,7 +119,9 @@ export default function Page() {
         <p className="mb-1">1. Remove .gitkeep files:</p>
 
         <div className="block bg-[#F2F0EF] dark:bg-[#181818] p-4">
-          <p className="text-emerald-600 dark:text-emerald-400"># macOS / Linux</p>
+          <p className="text-emerald-600 dark:text-emerald-400">
+            # macOS / Linux
+          </p>
           <p className="mb-4">
             rm json/.gitkeep data/extracted_batches/.gitkeep
             data/extracted_sections/.gitkeep
@@ -112,7 +131,9 @@ export default function Page() {
             Remove-Item json/.gitkeep, data/extracted_batches/.gitkeep,
             data/extracted_sections/.gitkeep -Force
           </p>
-          <p className="text-emerald-600 dark:text-emerald-400"># Command Prompt</p>
+          <p className="text-emerald-600 dark:text-emerald-400">
+            # Command Prompt
+          </p>
           del json\.gitkeep data\extracted_batches\.gitkeep
           data\extracted_sections\.gitkeep
         </div>
@@ -135,8 +156,8 @@ export default function Page() {
         </p>
 
         <p className="mt-6">
-          4. Open the run_pipeline.py script. On line 33, follow the instructions
-          and set CHUNKS_SIZE equal to 79, 80, or both.
+          4. Open the run_pipeline.py script. On line 33, follow the
+          instructions and set CHUNKS_SIZE equal to 79, 80, or both.
         </p>
 
         <p className="mt-4 mb-1">
@@ -144,17 +165,23 @@ export default function Page() {
         </p>
 
         <div className="block m bg-[#F2F0EF] dark:bg-[#181818] p-4">
-          <p className="text-emerald-600 dark:text-emerald-400"># macOS / Linux</p>
+          <p className="text-emerald-600 dark:text-emerald-400">
+            # macOS / Linux
+          </p>
           <p className="mb-4">export GEMINI_API_KEY="your-api-key-here"</p>
           <p className="text-emerald-600 dark:text-emerald-400"># PowerShell</p>
           <p className="mb-4">$env:GEMINI_API_KEY="your-api-key-here"</p>
-          <p className="text-emerald-600 dark:text-emerald-400"># Command Prompt</p>
+          <p className="text-emerald-600 dark:text-emerald-400">
+            # Command Prompt
+          </p>
           set GEMINI_API_KEY=your-api-key-here
         </div>
 
         <p className="mt-6">
           6. Run the pipeline:{" "}
-          <span className="bg-[#F2F0EF] dark:bg-[#181818] px-2 py-1">python run_pipeline.py</span>
+          <span className="bg-[#F2F0EF] dark:bg-[#181818] px-2 py-1">
+            python run_pipeline.py
+          </span>
         </p>
       </p>
 
@@ -164,7 +191,9 @@ export default function Page() {
       <p className="mb-6 text-lg">
         <p>
           Run all tests:{" "}
-          <span className="bg-[#F2F0EF] dark:bg-[#181818] px-2 py-1">pytest -q</span>
+          <span className="bg-[#F2F0EF] dark:bg-[#181818] px-2 py-1">
+            pytest -q
+          </span>
         </p>
 
         <p className="mt-6">
@@ -175,7 +204,10 @@ export default function Page() {
         </p>
 
         <div className="block mt-6 bg-[#F2F0EF] dark:bg-[#181818] p-4">
-          make test <span className="text-emerald-600 dark:text-emerald-400"># Run all tests</span>{" "}
+          make test{" "}
+          <span className="text-emerald-600 dark:text-emerald-400">
+            # Run all tests
+          </span>{" "}
           <br />
           make coverage{" "}
           <span className="text-emerald-600 dark:text-emerald-400">
@@ -183,8 +215,15 @@ export default function Page() {
           </span>{" "}
           <br />
           make format{" "}
-          <span className="text-emerald-600 dark:text-emerald-400"># Auto-format code</span> <br />
-          make lint <span className="text-emerald-600 dark:text-emerald-400"># Lint code</span> <br />
+          <span className="text-emerald-600 dark:text-emerald-400">
+            # Auto-format code
+          </span>{" "}
+          <br />
+          make lint{" "}
+          <span className="text-emerald-600 dark:text-emerald-400">
+            # Lint code
+          </span>{" "}
+          <br />
           make clean{" "}
           <span className="text-emerald-600 dark:text-emerald-400">
             # Remove __pycache__ and test artifacts
