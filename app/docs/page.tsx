@@ -196,7 +196,7 @@ export default function Page() {
       <p className="mb-6 text-lg">
         For more, see the{" "}
         <a
-          href="https://github.com/shriyanyamali/Lextract?tab=readme-ov-file#installation"
+          href="https://github.com/shriyanyamali/Lextract#readme"
           className="text-amber-700 hover:text-amber-600 dark:text-amber-300 dark:hover:text-amber-200"
           target="_blank"
         >
