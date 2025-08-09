@@ -40,7 +40,7 @@ export default function Page() {
           </li>
           <li>
             <a
-              href="https://ai.google.dev/"
+              href="https://aistudio.google.com/apikey"
               target="_blank"
               className="text-amber-700 hover:text-amber-600 dark:text-amber-300 dark:hover:text-amber-200"
             >
@@ -57,7 +57,7 @@ export default function Page() {
         <p className="mb-4">
           You can get a free Gemini API key{" "}
           <a
-            href="https://ai.google.dev/"
+            href="https://aistudio.google.com/apikey"
             target="_blank"
             className="text-amber-700 hover:text-amber-600 dark:text-amber-300 dark:hover:text-amber-200"
           >
@@ -69,15 +69,15 @@ export default function Page() {
 
         <p className="mb-4">
           Gemini 2.0 Flash should be suitable for analyzing 50-100 cases/day
-          depending on the length of the case decisions. See model options {" "}
+          depending on the length of the case decisions. See model options{" "}
           <a
             href="https://ai.google.dev/gemini-api/docs/models"
             target="_blank"
             className="text-amber-700 hover:text-amber-600 dark:text-amber-300 dark:hover:text-amber-200"
           >
             here
-          </a>
-          {" "} and rate limits {" "}
+          </a>{" "}
+          and rate limits{" "}
           <a
             href="https://ai.google.dev/gemini-api/docs/rate-limits"
             target="_blank"
