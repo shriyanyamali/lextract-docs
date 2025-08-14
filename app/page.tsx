@@ -171,7 +171,7 @@ export default function Page() {
         .
       </p>
 
-      <h2 className="underline decoration-1 decoration-amber-500 text-lg font-semibold mt-10 mb-4">
+      {/* <h2 className="underline decoration-1 decoration-amber-500 text-lg font-semibold mt-10 mb-4">
         attribution
       </h2>
       <p className="mb-6 text-lg">
@@ -181,7 +181,7 @@ export default function Page() {
           Shriyan Yamali, licensed under the GNU Affero General Public License
           v3.0 (AGPL-3.0). https://github.com/shriyanyamali/Lextract
         </code>
-      </p>
+      </p> */}
     </section>
   );
 }

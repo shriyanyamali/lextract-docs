@@ -115,10 +115,11 @@ export default function Page() {
         setup
       </h2>
 
-      <p className="mb-6 text-lg">
+      <div className="mb-6 text-lg">
         <p className="mb-1">1. Remove .gitkeep files:</p>
 
         <div className="block bg-[#F2F0EF] dark:bg-[#181818] p-4">
+
           <p className="text-emerald-600 dark:text-emerald-400">
             # macOS / Linux
           </p>
@@ -126,16 +127,23 @@ export default function Page() {
             rm json/.gitkeep data/extracted_batches/.gitkeep
             data/extracted_sections/.gitkeep
           </p>
-          <p className="text-emerald-600 dark:text-emerald-400"># PowerShell</p>
+
+          <p className="text-emerald-600 dark:text-emerald-400">
+            # PowerShell
+          </p>
           <p className="mb-4">
             Remove-Item json/.gitkeep, data/extracted_batches/.gitkeep,
             data/extracted_sections/.gitkeep -Force
           </p>
+
           <p className="text-emerald-600 dark:text-emerald-400">
             # Command Prompt
           </p>
-          del json\.gitkeep data\extracted_batches\.gitkeep
-          data\extracted_sections\.gitkeep
+          <p>
+            del json\.gitkeep data\extracted_batches\.gitkeep
+            data\extracted_sections\.gitkeep
+          </p>
+          
         </div>
 
         <p className="mt-6">
@@ -183,7 +191,7 @@ export default function Page() {
             python run_pipeline.py
           </span>
         </p>
-      </p>
+      </div>
 
       <h2 className="underline decoration-1 decoration-amber-500 text-lg font-semibold mt-10 mb-4">
         testing
