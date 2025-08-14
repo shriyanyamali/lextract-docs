@@ -92,7 +92,7 @@ export default function Page() {
       <h2 className="underline decoration-1 decoration-amber-500 text-lg font-semibold mt-10 mb-4">
         installation
       </h2>
-      <div className="mb-6 text-lg">
+      <div className="mb-6 text-lg break-words">
         <div className="block mt-2 bg-[#F2F0EF] dark:bg-[#181818] p-4">
           <p className="text-emerald-600 dark:text-emerald-400">
             # Clone the repo
@@ -114,11 +114,10 @@ export default function Page() {
       <h2 className="underline decoration-1 decoration-amber-500 text-lg font-semibold mt-10 mb-4">
         setup
       </h2>
-
       <div className="mb-6 text-lg">
         <p className="mb-1">1. Remove .gitkeep files:</p>
 
-        <div className="block bg-[#F2F0EF] dark:bg-[#181818] p-4">
+        <div className="block bg-[#F2F0EF] dark:bg-[#181818] p-4 break-words">
 
           <p className="text-emerald-600 dark:text-emerald-400">
             # macOS / Linux
