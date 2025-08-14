@@ -83,7 +83,7 @@ export default function Page() {
           example output
         </h2>
         <div>
-          <pre className="mb-6 text-lg whitespace-pre-wrap font-mono rounded text-black dark:text-white">
+          <pre className="mb-6 text-lg whitespace-pre-wrap break-words font-mono rounded text-black dark:text-white">
             <code>
               <span>{`[`}</span>
               {"\n  "}

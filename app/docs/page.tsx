@@ -18,7 +18,7 @@ export default function Page() {
         prerequisites
       </h2>
 
-      <p className="mb-6 text-lg">
+      <div className="mb-6 text-lg">
         <ul>
           <li>
             <a
@@ -48,7 +48,7 @@ export default function Page() {
             </a>
           </li>
         </ul>
-      </p>
+      </div>
 
       <h2 className="underline decoration-1 decoration-amber-500 text-lg font-semibold mt-10 mb-4">
         gemini api key
@@ -92,7 +92,7 @@ export default function Page() {
       <h2 className="underline decoration-1 decoration-amber-500 text-lg font-semibold mt-10 mb-4">
         installation
       </h2>
-      <p className="mb-6 text-lg">
+      <div className="mb-6 text-lg">
         <div className="block mt-2 bg-[#F2F0EF] dark:bg-[#181818] p-4">
           <p className="text-emerald-600 dark:text-emerald-400">
             # Clone the repo
@@ -109,7 +109,7 @@ export default function Page() {
           </p>
           install -r requirements.txt
         </div>
-      </p>
+      </div>
 
       <h2 className="underline decoration-1 decoration-amber-500 text-lg font-semibold mt-10 mb-4">
         setup
@@ -143,7 +143,7 @@ export default function Page() {
             del json\.gitkeep data\extracted_batches\.gitkeep
             data\extracted_sections\.gitkeep
           </p>
-          
+
         </div>
 
         <p className="mt-6">
@@ -196,7 +196,7 @@ export default function Page() {
       <h2 className="underline decoration-1 decoration-amber-500 text-lg font-semibold mt-10 mb-4">
         testing
       </h2>
-      <p className="mb-6 text-lg">
+      <div className="mb-6 text-lg">
         <p>
           Run all tests:{" "}
           <span className="bg-[#F2F0EF] dark:bg-[#181818] px-2 py-1">
@@ -238,7 +238,7 @@ export default function Page() {
           </span>{" "}
           <br />
         </div>
-      </p>
+      </div>
 
       <p className="mb-6 text-lg">
         For more, see the{" "}
