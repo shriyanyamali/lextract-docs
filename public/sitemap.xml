@@ -6,17 +6,17 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-  <loc>https://lextract.shriyanyamali.tech/</loc>
+  <loc>https://lextract.shriyanyamali.com/</loc>
   <lastmod>2025-08-06T07:51:47+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://lextract.shriyanyamali.tech/docs</loc>
+  <loc>https://lextract.shriyanyamali.com/docs</loc>
   <lastmod>2025-08-06T07:51:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://lextract.shriyanyamali.tech/paper</loc>
+  <loc>https://lextract.shriyanyamali.com/paper</loc>
   <lastmod>2025-08-06T07:51:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
