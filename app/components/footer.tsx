@@ -27,7 +27,7 @@ export default function Footer() {
             href="https://github.com/shriyanyamali/Lextract/blob/main/paper.pdf"
           >
             <ArrowIcon />
-            <p className="ml-2 h-7">view paper</p>
+            <p className="ml-2 h-7">paper</p>
           </a>
         </li>
         <li>
@@ -38,7 +38,7 @@ export default function Footer() {
             href="https://github.com/shriyanyamali/Lextract"
           >
             <ArrowIcon />
-            <p className="ml-2 h-7">lextract code</p>
+            <p className="ml-2 h-7">lextract</p>
           </a>
         </li>
         <li>
@@ -49,7 +49,7 @@ export default function Footer() {
             href="https://github.com/shriyanyamali/lextract-docs"
           >
             <ArrowIcon />
-            <p className="ml-2 h-7">website code</p>
+            <p className="ml-2 h-7">website</p>
           </a>
         </li>
       </ul>
