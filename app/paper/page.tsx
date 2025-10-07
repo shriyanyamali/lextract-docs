@@ -9,34 +9,27 @@ export default function Page() {
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">Paper</h1>
 
       <p className="mb-6 text-lg">
-        This paper is still a working draft and is not yet peer-reviewed. 
+        This paper is still a working draft and is not yet peer-reviewed.
       </p>
 
       <h2 className="underline decoration-1 decoration-amber-500 text-lg font-semibold mt-10 mb-4">
         abstract
       </h2>
       <p className="mb-4 text-lg">
-        Lextract is a Python pipeline that automatically locates, downloads, and
-        extracts relevant market definitions from the European Commission’s
-        merger and antitrust decision PDFs. Relevant market definitions
-        establish the specific scope of competition legislation and identify the
-        specific set of products in an area, making them indispensable for
-        economists, lawyers, and regulators when determining the effects of
-        mergers and evaluating anticompetitive behavior. However, manually
-        retrieving these definitions from the European Commission's verbose
-        decision PDFs is extremely time consuming and error-prone. Hence, this
-        pipeline has been designed for researchers and competition law experts
-        who require a quick and scalable way to extract relevant market
-        definitions from many cases at once. Additionally, considering that
-        market definitions are highly sensitive and, to some extent, arbitrary,
-        Lextract has been designed and implemented to extract definitions as
-        accurately as possible, since a slight change in the language of a
-        definition can drastically change its meaning. This standard of accuracy
-        is accomplished by using strict natural language processing and
-        rule-based pattern recognition to identify market definitions while
-        excluding all irrelevant information. By automating this process,
-        Lextract enables merger and antitrust research at scale and contributes
-        to more efficient competition policy analysis.
+        Lextract is a Python pipeline that automatically extracts relevant
+        market definitions from the European Commission’s merger and antitrust
+        decision PDFs. Relevant market definitions establish the scope of
+        competition legislation and identify the specific set of products in an
+        area, which make them indispensable for economists, lawyers, and
+        regulators when determining the effects of mergers and evaluating
+        anticompetitive behavior. This pipeline has been designed for
+        researchers and competition law experts who require a quick and accurate
+        way to extract relevant market definitions from many cases at once. This
+        level of accuracy is accomplished by using strict natural language
+        processing and rule-based pattern recognition to identify market
+        definitions while excluding all irrelevant information. By automating
+        this process, Lextract enables merger and antitrust research at scale
+        and contributes to more efficient competition policy analysis.
       </p>
 
       <h2 className="underline decoration-1 decoration-amber-500 text-lg font-semibold mt-10 mb-4">
@@ -58,9 +51,11 @@ export default function Page() {
         acknowledgements
       </h2>
       <p className="mb-4 text-lg">
-        Lextract was built by Shriyan Yamali under the advisement of Professor
-        Thibault Schrepel. This research received no funding from any government
-        agency, university, company, or non-profit organization.
+        Lextract was built by Shriyan Yamali. I am grateful to Professor
+        Thibault Schrepel of Stanford Law School for his invaluable advisement
+        and guidance throughout the course of this project. This research
+        received no funding from any government agency, university, company,
+        or non-profit organization.
       </p>
 
       {/* <h2 className="underline decoration-1 decoration-amber-500 text-lg font-semibold mt-10 mb-4">

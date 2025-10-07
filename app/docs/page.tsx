@@ -221,16 +221,6 @@ export default function Page() {
             # Run tests with coverage report
           </span>{" "}
           <br />
-          make format{" "}
-          <span className="text-emerald-600 dark:text-emerald-400">
-            # Auto-format code
-          </span>{" "}
-          <br />
-          make lint{" "}
-          <span className="text-emerald-600 dark:text-emerald-400">
-            # Lint code
-          </span>{" "}
-          <br />
           make clean{" "}
           <span className="text-emerald-600 dark:text-emerald-400">
             # Remove __pycache__ and test artifacts
