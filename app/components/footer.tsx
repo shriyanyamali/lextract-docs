@@ -24,7 +24,7 @@ export default function Footer() {
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://github.com/shriyanyamali/Lextract/blob/main/paper.pdf"
+            href="/paper.pdf"
           >
             <ArrowIcon />
             <p className="ml-2 h-7">paper</p>
@@ -38,7 +38,7 @@ export default function Footer() {
             href="https://github.com/shriyanyamali/Lextract"
           >
             <ArrowIcon />
-            <p className="ml-2 h-7">lextract</p>
+            <p className="ml-2 h-7">github</p>
           </a>
         </li>
         <li>
@@ -46,10 +46,10 @@ export default function Footer() {
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://github.com/shriyanyamali/lextract-docs"
+            href="https://jurismercatus.shriyanyamali.com/"
           >
             <ArrowIcon />
-            <p className="ml-2 h-7">website</p>
+            <p className="ml-2 h-7">jurismercatus</p>
           </a>
         </li>
       </ul>
