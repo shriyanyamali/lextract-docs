@@ -29,20 +29,21 @@ export default function Page() {
       <p className={p}>
         Relevant market definitions are central to merger and antitrust
         analysis, but extracting them at scale from European Commission
-        decisions is difficult be- cause the documents are numerous and
+        decisions is difficult because the documents are numerous and
         heterogeneous in structure and language. We present Lextract, an
         open-source Python pipeline that combines document collection and
-        filtering with large-language-model-based identification of market-
-        definition sections and individual definitions. The extracted records
-        are stored as structured JSON and power JurisMercatus, a semantic-search
-        interface for market definitions. We evaluate 4,105 definitions
-        extracted from more than 600 Commis- sion decisions using a structural
-        validity procedure derived from 50 manually ver- ified definitions.
-        Overall, 76.6% satisfy all validity criteria; the main failure mode is
-        the absence of a recognized structural marker. The results show that
-        Lextract can produce a large, reproducible collection of structurally
-        well-formed market defini- tions while also revealing the need for a
-        larger gold-standard evaluation of end-to- end extraction accuracy.
+        filtering with large-language-model-based identification of
+        market-definition sections and individual definitions. The extracted
+        records are stored as structured JSON and power JurisMercatus, a
+        semantic-search interface for market definitions. We evaluate 4,105
+        definitions extracted from more than 600 Commission decisions using a
+        structural validity procedure derived from 50 manually verified
+        definitions. Overall, 76.6% satisfy all validity criteria; the main
+        failure mode is the absence of a recognized structural marker. The
+        results show that Lextract can produce a large, reproducible collection
+        of structurally well-formed market definitions while also revealing the
+        need for a larger gold-standard evaluation of end-to-end extraction
+        accuracy.
       </p>
 
       <h2 className={h2}>keywords</h2>
@@ -57,7 +58,6 @@ export default function Page() {
         project. This research received no funding from any government agency,
         university, company, or non-profit organization.
       </p>
-
     </section>
   );
 }
