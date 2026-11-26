@@ -17,7 +17,7 @@ export default function Page() {
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">Paper</h1>
 
       <p className={p}>
-        This paper is currently under review. You can view the full PDF
+        This paper is forthcoming. You can view the full PDF
         submission at{" "}
         <a href="/paper.pdf" target="_blank" className={link}>
           here
@@ -28,28 +28,33 @@ export default function Page() {
       <h2 className={h2}>abstract</h2>
       <p className={p}>
         Relevant market definitions are central to merger and antitrust
-        analysis, but extracting them at scale from European Commission
-        decisions is difficult because the documents are numerous and
-        heterogeneous in structure and language. We present Lextract, an
-        open-source Python pipeline that combines document collection and
-        filtering with large-language-model-based identification of
-        market-definition sections and individual definitions. The extracted
-        records are stored as structured JSON and power JurisMercatus, a
-        semantic-search interface for market definitions. We evaluate 4,105
-        definitions extracted from more than 600 Commission decisions using a
-        structural validity procedure derived from 50 manually verified
-        definitions. Overall, 76.6% satisfy all validity criteria; the main
-        failure mode is the absence of a recognized structural marker. The
-        results show that Lextract can produce a large, reproducible collection
-        of structurally well-formed market definitions while also revealing the
-        need for a larger gold-standard evaluation of end-to-end extraction
-        accuracy.
+        analysis, but collecting them at scale from European Commission
+        decisions is difficult because the decisions are numerous and
+        heterogeneous in structure and wording. We present Lextract, an
+        open-source pipeline that filters decision PDFs, uses Gemini 2.0 Flash
+        in two calls to locate the market-definition section and to isolate
+        individual definitions, and stores the results as JSON. Applied to 600
+        cases, it produced 4,105 records that feed JurisMercatus, a
+        semantic-search interface. We document the prompts, settings, exclusion
+        rules and thresholds, give a worked example from source text to record,
+        and combine the model with three symbolic quality checks, namely a
+        structural validity test derived from 50 manually checked definitions, a
+        source-fidelity test that checks whether each record occurs verbatim in
+        its decision, and a manual inspection of 100 records. Of the records,
+        76.6% pass the structural test. Against all 699 retrievable decisions,
+        79% of the 4,067 verifiable records are verbatim and 9% near-verbatim.
+        The fidelity test flags the remaining 12% as absent from their source,
+        three quarters of them from short simplified-procedure decisions without
+        market analysis, and removes them in a cleaned release of 3,607 records.
+        The structural test accepts 71% of the flagged records, which shows that
+        checking output against the source text adds information that
+        resemblance-based checks miss.
       </p>
 
       <h2 className={h2}>keywords</h2>
       <p className={p}>
         legal information extraction, competition law, relevant market
-        definition, large language models, European Commission
+        definition, large language models, quality control, European Commission
       </p>
       <h2 className={h2}>acknowledgements</h2>
       <p className={p}>
